@@ -15,25 +15,33 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author dom
  */
-public class ManageUserServlet extends HttpServlet {
+public class HomeServlet extends HttpServlet {
 
+    /**
+     * Handles the HTTP <code>GET</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/WEB-INF/user.jsp").forward(request, response);
+         getServletContext().getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
     }
 
+    /**
+     * Handles the HTTP <code>POST</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String firstname = request.getParameter("fname");
-        String lastname = request.getParameter("lname");
-        String password = request.getParameter("password");
-        String active = request.getParameter("active");
-        String email = request.getParameter("email");
         
-        //jdbc to update table
-        
-      response.sendRedirect("login");
     }
 }

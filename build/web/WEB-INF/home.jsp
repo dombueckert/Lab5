@@ -9,9 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Hello ${firstname}</h1>
+        <h3>What do you want to get done?</h3>
+        <p><a href="user">Manage Account Information</a></p>
+        <p><a href="inventory">Inventory?</a></p>
     </body>
 </html>

@@ -67,7 +67,7 @@ public class LoginServlet extends HttpServlet {
         if (user.getRole().getRoleId() == 1) {
             response.sendRedirect("admin");
         } else {
-            response.sendRedirect("manageuser");
+            response.sendRedirect("home");
         }
     }
 }

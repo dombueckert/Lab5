@@ -19,7 +19,11 @@
             <p>Last Name: <input type="text" name="lname" id="lname" placeholder="${lastname}"></p><br>
             <p>Email: <input type="email" name="fname" id="fname" placeholder="${email}"></p><br>
             <p>Password: <input type="password" name="password" id="password"></p><br>
+            <p>Deactivate Account?</p>
+            <p><input type="radio" name="active" value="0"> Yes</p>
+            <p><input type="radio" name="active" value="1"> No</p>
             <button type="submit">Confirm Changes</button>
         </form>
+            <a href="login">Logout</a>
     </body>
 </html>
