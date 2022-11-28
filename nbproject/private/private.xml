@@ -3,11 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/dom/NetBeansProjects/Lab5/web/WEB-INF/shoppingList.jsp</file>
-            <file>file:/Users/dom/NetBeansProjects/Lab5/web/WEB-INF/register.jsp</file>
-            <file>file:/Users/dom/NetBeansProjects/Lab5/web/index.html</file>
-            <file>file:/Users/dom/NetBeansProjects/Lab5/src/java/ca/sait/servlets/ShoppingListServlet.java</file>
-            <file>file:/Users/dom/NetBeansProjects/Lab5/web/WEB-INF/web.xml</file>
+            <file>file:/Users/dom/NetBeansProjects/final-project-fall-2022-dombueckert-main/web/WEB-INF/login.jsp</file>
+            <file>file:/Users/dom/NetBeansProjects/final-project-fall-2022-dombueckert-main/web/WEB-INF/register.jsp</file>
+            <file>file:/Users/dom/NetBeansProjects/final-project-fall-2022-dombueckert-main/src/java/database/inventorydb.sql</file>
+            <file>file:/Users/dom/NetBeansProjects/final-project-fall-2022-dombueckert-main/src/java/servlets/LoginServlet.java</file>
+            <file>file:/Users/dom/NetBeansProjects/final-project-fall-2022-dombueckert-main/src/java/dataaccess/UserDB.java</file>
+            <file>file:/Users/dom/NetBeansProjects/final-project-fall-2022-dombueckert-main/web/WEB-INF/web.xml</file>
         </group>
     </open-files>
 </project-private>
